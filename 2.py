@@ -12,7 +12,6 @@ x
 x
 2
 x + 1
- File "main.py", line 13, in <module>
     print('x'+1)
 TypeError: can only concatenate str (not "int") to str
 """
