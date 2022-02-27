@@ -28,7 +28,8 @@ print (d1 * i2 / i1)
 print (d2 / d1 * i1)
 print (i1 * d2 / d1)
 
-"""result
+"""
+result
 7
 0.4
 0
@@ -50,4 +51,5 @@ print (i1 * d2 / d1)
 5.0
 5.0
 5.0
-5.0"""
+5.0
+"""
