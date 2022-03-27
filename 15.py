@@ -12,7 +12,6 @@ def sin(x,n):
 x=float(input('Enter The value of Degrees:'))
 n=int(input('Enter The number of terms:'))
 print(sin(x,n))
-
 .
 .
 .
