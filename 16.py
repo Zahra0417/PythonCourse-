@@ -31,11 +31,11 @@ for i in range(20):
     if(i == 0):
         min = a
         max = a
-   else: 
-       if(a > max):
-           max = a
-       if(a < min):
-           min = a
+    else: 
+        if(a > max):
+            max = a
+        if(a < min):
+            min = a
 
 average = sum/20
 
