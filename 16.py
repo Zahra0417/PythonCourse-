@@ -1,3 +1,4 @@
+#Solve the question in two ways
 sum_nuumber = 0
 average_number = 0
 a = float(input("Enter value:"))
