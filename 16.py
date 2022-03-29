@@ -38,7 +38,7 @@ for i in range(20):
     
 
 avg = sum / 20
-print('avg =',avg,' min =' , min , ' max =' , max)
+print(' sum= ' , sum ,'avg =',avg,' min =' , min , ' max =' , max)
 
 input()
 
