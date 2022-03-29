@@ -17,3 +17,29 @@ print(sum_nuumber,"sum")
 print(sum_nuumber/20,"average")
 print(maximum_number)
 print(minimum_number)
+
+.
+.
+.
+
+Sum = 0
+for i in range(20):
+    a = float(input('Enter a number:'))
+    Sum += a 
+    
+
+    if(i == 0):
+        min = a
+        max = a
+   else: 
+       if(a > max):
+           max = a
+       if(a < min):
+           min = a
+
+average = sum/20
+
+Print('average=',average,'min=',min,'max=',max)
+input()
+
+
