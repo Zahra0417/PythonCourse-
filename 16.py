@@ -22,25 +22,24 @@ print(minimum_number)
 .
 .
 .
-
-Sum = 0
+sum = 0
 for i in range(20):
-    a = float(input('Enter a number:'))
-    Sum += a 
-    
+    a = float(input('enter a number: '))
+    sum += a
 
     if(i == 0):
         min = a
-        max = a
-    else: 
+        max= a
+    else:
         if(a > max):
             max = a
         if(a < min):
             min = a
+    
 
-average = sum/20
+avg = sum / 20
+print('avg =',avg,' min =' , min , ' max =' , max)
 
-Print('average=',average,'min=',min,'max=',max)
 input()
 
 
