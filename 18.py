@@ -1,12 +1,16 @@
 """
+
 Exercise 1
 answer:Yes
+
 
 Exercise 2
 answer:with the help of the negative index in Python ,we can access the elements of the list from the bottom.
 
+
 Exercise 3
 answer:list=[45,-3,16,8]
+
 
 Exercise 4
 answer:
@@ -18,6 +22,7 @@ answer:
 (f) 29
 (g) 10
 (h) illegal
+
 
 Exercise 5
 answer:
@@ -38,6 +43,7 @@ answer: Function len
 Exercise 7
 answer: a=[]
 
+
 Exercise 8
 answer:
 (a) [20,1,-34,40,-8,60,1,3]
@@ -53,6 +59,69 @@ answer:
 (k) True
 (l) False
 (m) 8
+
+
+Exercise 9
+answer:
+(a)
+(b)
+(c)
+(d) lst[3:4]=['a','b','c']
+(e) lst[ : ]
+(f) 
+(g) lst[-1: ]
+(h) lst[ :3]
+(i) lst[2: ]
+(j) lst[1:4]=[ ]
+(k) lst[1:4]
+
+
+Exercise 10
+answer:
+(a) [8,8,8,8]
+(b) [2,7,2,7,2,7,2,7,2,7,2,7]
+(c) [1,2,3,'a','b','c','d']
+(d) [1,2,1,2,1,2,4,2]
+(e) [1,2,4,2,1,2,4,2,1,2,4,2]
+ 
+
+Exercise 11
+answer:
+(a) [3,5,7,9]
+(b) [50,60,70,80,90]
+(c) [12,15,18]
+(d) [(0,0),(0,1),(0,2),(0,3),(1,0),(1,1),(1,2),(1,3),(2,0),(2,1),(2,2),(2,3)]
+(e) [(0,0),(0,2),(1,1),(1,3),(2,0),(2,2)]
+
+
+Exercise 12
+answer:
+(a) [x**2 for x in range (1,6)]
+(b) [x/4 for x in range (1,7)]
+(c) [(x,y) for x in ['a','b'] for y in [0,1,2]]
+
+
+Exercise 13
+answer:
+x in lst (show existence)
+x not in lst (show not existence)
+
+
+Exercise 14
+answer:
+reverse()function is used to reverse the order of objects in a list data structure in place.
+
+
+Exercise 15
+answer:
+
+
+
+
+
+
+
+
 
 
 
