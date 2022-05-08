@@ -138,13 +138,48 @@ if len(L)==0:
 Exercise 16
 answer:
 
+def count_evens(nums):
+    count = 0
+    for n in nums:
+        if  n%2==0:
+            count += 1
+    return count
+
+    
+nums=[]
+for i in range (0,4):
+    n=int(input("Enter a number of list:"))
+    nums+=[n]
+
+    
+    
+print (count_evens(nums))
 
 
 
+Exercise 17
+answer:
+
+def bigenough(lis):
+    x = int(input("Enter a number as acompare:"))
+    jadid=[]
+    for i in lis:
+        if  i>=x:
+            jadid += [i]
+    return jadid
+
+    
+lis=[]
+for i in range (0,4):
+    n=int(input("Enter a number of list:"))
+    lis+=[n]
 
 
+print (bigenough(lis))
 
 
+Exercise 18
+answer:
 
 
 
