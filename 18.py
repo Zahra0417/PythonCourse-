@@ -63,7 +63,7 @@ answer:
 
 Exercise 9
 answer:
-(a)
+(a)lst[0:5]=[2,4,6,8,10]
 (b)
 (c)
 (d) lst[3:4]=['a','b','c']
@@ -180,6 +180,63 @@ print (bigenough(lis))
 
 Exercise 18
 answer:
+
+lst = [5, 3, 1] 
+ 
+ 
+def next_number(lst): 
+    my_max = 0 
+    number = 0 
+    for i in lst: 
+        if i > my_max: 
+            my_max = i 
+ 
+    for i in range(1, my_max + 1): 
+        if i not in lst: 
+            return i 
+ 
+    return my_max + 1 
+ 
+ 
+print(next_number(lst))
+
+
+Exercise 19
+answer:
+def reverse(lis):
+    jadid=[]
+    for i in lis[ ::-1]:
+            jadid += [i]
+    return jadid
+
+    
+lis=[]
+for i in range (0,4):
+    n=int(input("Enter a number of list:"))
+    lis+=[n]
+
+
+print (reverse(lis))
+
+Exercise 20
+answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
