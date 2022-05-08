@@ -63,17 +63,28 @@ answer:
 
 Exercise 9
 answer:
-(a)lst[0:5]=[2,4,6,8,10]
-(b)
-(c)
-(d) lst[3:4]=['a','b','c']
-(e) lst[ : ]
-(f) 
-(g) lst[-1: ]
-(h) lst[ :3]
-(i) lst[2: ]
-(j) lst[1:4]=[ ]
-(k) lst[1:4]
+
+A = [2, 4, 6, 8, 10, 12, 14, 16, 18, 20] ==> A[0:5] ==> [2, 4, 6, 8, 10]
+
+A = [-10, -8, -6, -4, -2, 0, 2, 4, 6, 8, 10] ==> A[6:11] ==> [2, 4, 6, 8, 10]
+
+A = [2, 3, 4, 5, 6, 7, 8, 10] ==> A[0:7:2] + A[7:] ==>! [2, 4, 6, 8, 10]
+
+A = [2, 4, 6, 'a', 'b', 'c', 8, 10] ==> A[0:3] + A[6:] ==> [2, 4, 6, 8, 10]
+
+A = [2, 4, 6, 8, 10] ==> A[0:5] ==> [2, 4, 6, 8, 10]
+
+A = [] ==> IMPOSSIBLE !! HOWEVER => A[0:] + [2, 4, 6, 8, 10] ==> [2, 4, 6, 8, 10]
+
+A = [10, 8, 6, 4, 2] ==> A[-1:-6:-1] ==> [2, 4, 6, 8, 10]
+
+A = [2, 4, 6] ==> IMPOSSIBLE !! HOWEVER => A[0:4] + [8, 10] ==> [2, 4, 6, 8, 10]
+
+A = [6, 8, 10] ==> IMPOSSIBLE !! HOWEVER => [2, 4] + A[0:4] ==> [2, 4, 6, 8, 10]
+
+A = [2, 10] ==> IMPOSSIBLE !! HOWEVER => A[0:1] + [4, 6, 8] + A[1:2] ==> [2, 4, 6, 8, 10]
+
+A = [4, 6, 8] ==> IMPOSSIBLE !! HOWEVER => [2] + A[0:3] + [10] ==> [2, 4, 6, 8, 10]
 
 
 Exercise 10
@@ -221,10 +232,49 @@ print (reverse(lis))
 Exercise 20
 answer:
 
+z=[[1 for _ in range(9)]for _ in range(6)]
+print(z)
+z[2][4]=0
+print(z)
+
+Exercise 21
+answer:
+
+#first way 
+lis = []
+for i in range(1,11):
+    lis +=[i]
+print(lis)
 
 
+#second way 
+lis=[10,9,8,7,6,5,4,3,2,1]
+new=[]
+for i in lis[ ::-1]:
+    new+=[i]
+print(new)
+
+#third way
+lis = []
+i = 0 
+while i<10:
+    i+=1 
+    lis +=[i]
+print(lis)
+
+#forth way 
+lis=[20,19,18,17,16,15,14,13,12,11,1,2,3,4,5,6,7,8,9,10,0]
+new=[]
+for i in lis[-11:-1:1]:
+    new +=[i]
+print(new)
+
+#fifth way 
+print("[1,2,3,4,5,6,7,8,9,10]")
 
 
+Exercise 22
+answer:
 
 
 
