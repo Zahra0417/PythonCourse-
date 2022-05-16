@@ -276,15 +276,15 @@ print("[1,2,3,4,5,6,7,8,9,10]")
 Exercise 22
 answer:
 
-def Q22(m):
-    new_mat = [[0] * len(m)] * len(m)
-    for i in range(len(m)):
-        for j in range(len(m[0])):
-            new_mat[j][i] = m[i][j]
+def matris2body(s):
+    new_mat = [[0] * len(s)] * len(s)
+    for i in range(len(s)):
+        for j in range(len(s[0])):
+            new_mat[j][i] = s[i][j]
     flag = 0
 
-    for i in range(len(m)):
-        for j in range(len(m)):
+    for i in range(len(s)):
+        for j in range(len(s)):
             if m[i] == new_mat[j]:
                 flag = 1
 
@@ -298,12 +298,12 @@ def Q22(m):
 Exercise 23
 answer:
 
-def check_winner(m):
-    new_mat = [[0] * len(m)] * len(m)
-    for i in range(len(m)):
-        for j in range(len(m[0])):
-            new_mat[j][i] = m[i][j]
-    for i in m:
+def check_winner(s):
+    new_mat = [[0] * len(s)] * len(s)
+    for i in range(len(s)):
+        for j in range(len(s[0])):
+            new_mat[j][i] = s[i][j]
+    for i in s:
         if i[0] == i[1] == i[2] == 'X':
             return 'X'
         elif i[0] == i[1] == i[2] == 'O':
@@ -313,18 +313,19 @@ def check_winner(m):
             return 'X'
         elif i[0] == i[1] == i[2] == 'O':
             return 'O'
-    if m[0][0] == m[1][1] == m[2][2] == 'X':
+    if s[0][0] == s[1][1] == s[2][2] == 'X':
         return 'X'
-    elif m[0][0] == m[1][1] == m[2][2] == 'O':
+    elif s[0][0] == s[1][1] == s[2][2] == 'O':
         return 'O'
-    if m[0][2] == m[1][1] == m[2][0] == 'X':
+    if s[0][2] == s[1][1] == s[2][0] == 'X':
         return 'X'
-    elif m[0][2] == m[1][1] == m[2][0] == 'X':
+    elif s[0][2] == s[1][1] == s[2][0] == 'X':
         return 'O'
     return ' '
 
 
 """
+8
 
 
 
