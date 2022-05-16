@@ -325,7 +325,6 @@ def check_winner(s):
 
 
 """
-8
 
 
 
