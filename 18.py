@@ -58,6 +58,7 @@ answer:
 (j) [1,-34,40,-8]
 (k) True
 (l) False
+(m) 8
 
 Exercise 9
 answer:
