@@ -63,11 +63,11 @@ answer:
 Exercise 9
 answer:
 (a)lst[0:5]=[2,4,8,10]
-(b)
-(C)
+(b)lst[6:11]=[2,4,6,8,10]
+(C)lst[7: ]=![2,4,6,8,10]
 (d)lst[3:4]=['a','b','c']
 (e)lst[ : ]
-(f)
+(f)lst[0:0]
 (g)lst[-1: ]
 (h)lst[ :3]
 (i)lst[2: ]
