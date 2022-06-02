@@ -57,7 +57,19 @@ answer :
 
 Exercises 8
 answer :
+def mul_tuple(tuple) : 
+    product = 1
+    for i in tuple:
+        product = product * i 
+    return product 
 
+
+tuple1 = (11, 12, 4, 3)
+print(tuple1) 
+print("product:",mul_tuple(tuple1))
+
+Exercises 9
+answer:
 
 
 
