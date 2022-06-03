@@ -104,6 +104,7 @@ If the key within the square brackets does not
 exist in the dictionary, the statement adds the key and pairs it with the value on the right of the assignment 
 operator. If the key already exists in the dictionary, the statement replaces the value previously associated 
 with the key with the new value on the right of the assignment operator.
+Or The get method retrieves a value from the dictionary. Returns the default value if there is no requested value
 
 Exercise 14
 answer:
