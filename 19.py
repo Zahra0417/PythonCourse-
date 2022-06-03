@@ -398,18 +398,18 @@ immutable
 Exercise 23
 answer:
 (a):A = {20, 19, 2, 10, 7}
-(b):True 
-(c):False 
-(d):A&B ={10,7}
-(e):A|B ={20,19,2,10,7,4,5,9}
-(f):True 
-(g):True 
-(h):False
-(i):True 
-(j):False 
-(K):5
-(l):{2,3,4,5,6,7,8,9,10,11}
-(m):{0,5,8,17,18}
-(n):{0,5}
+(b):20 in A = True 
+(c):20 not in A = False 
+(d):A&B = {10,7}
+(e):A|B = {20,19,2,10,7,4,5,9}
+(f):C < A = True 
+(g):C <= A = True 
+(h):C <= B = False
+(i):A <= A = True 
+(j):A < A = False 
+(K):len(A) = 5
+(l):{x + 2 for x in range(10)} = {2,3,4,5,6,7,8,9,10,11}
+(m): {x - 2 for x in A} = {0,5,8,17,18}
+(n):{x - 2 for x in A if x < 10} = {0,5}
 
 
