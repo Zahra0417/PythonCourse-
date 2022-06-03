@@ -70,7 +70,20 @@ print("product:",mul_tuple(tuple1))
 
 Exercises 9
 answer:
+def zero_sum(num):
+    z = 0
+    for i in num:
+        z += i
+    if z == 0 :
+        return True
+    elif z!= 0 :
+        return False
+    else:
+        return True
 
+num =(4,7,9,10,-1)
+x = zero_sum(num)
+print(x)
 
 Exercises 10
 answer:
