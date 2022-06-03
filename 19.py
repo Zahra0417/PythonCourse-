@@ -100,7 +100,10 @@ d['Fred'] = 44
 
 Exercise 13
 answer:
-
+If the key within the square brackets does not 
+exist in the dictionary, the statement adds the key and pairs it with the value on the right of the assignment 
+operator. If the key already exists in the dictionary, the statement replaces the value previously associated 
+with the key with the new value on the right of the assignment operator.
 
 Exercise 14
 answer:
