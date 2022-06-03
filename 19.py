@@ -107,13 +107,16 @@ with the key with the new value on the right of the assignment operator.
 
 Exercise 14
 answer:
-
-
+must be a valid key in dictionary , or the program will raise an exception. A valid key is a key that 
+is present in the dictionary.  We see the interpreter’s reaction when we attempt to use an invalid key: the interpreter an generates 
+KeyError exception.
 
 Exercise 15
 answer:
 immutable
 
+Exercise 16
+answer:
 
 
 
