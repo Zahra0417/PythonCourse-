@@ -72,10 +72,13 @@ Exercises 9
 answer:
 
 
-
-
+Exercises 10
+answer:
+A Python dictionary is an associative container which permits access based on a key, rather than an  index. 
+Unlike an index, a key is not restricted to an integer expression.
  
-
+Exercises 11
+answer:
 
 
 
