@@ -397,3 +397,11 @@ immutable
 
 Exercise 23
 answer:
+(a):A = {20, 19, 2, 10, 7}
+(b):True 
+(c):False 
+(d):A&B ={10,7}
+(e):A|B ={20,19,2,10,7,4,5,9}
+(f):
+
+
