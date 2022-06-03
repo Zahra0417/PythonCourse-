@@ -96,6 +96,10 @@ d = {}
 
 Exercise 12
 answer:
+d['Fred'] = 44
+
+Exercise 13
+answer:
 
 
 
