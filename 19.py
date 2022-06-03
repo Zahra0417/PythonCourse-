@@ -79,9 +79,10 @@ Unlike an index, a key is not restricted to an integer expression.
  
 Exercises 11
 answer:
+d = {}
 
-
-
+Exercise 12
+answer:
 
 
 
