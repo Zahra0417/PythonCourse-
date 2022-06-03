@@ -389,4 +389,11 @@ The expression set() produces a set with no elements, and thus represents the em
 
 Exercise 21
 answer:
+A=set()
 
+Exercise 22
+answer:
+immutable
+
+Exercise 23
+answer:
