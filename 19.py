@@ -102,7 +102,14 @@ Exercise 13
 answer:
 
 
+Exercise 14
+answer:
 
+
+
+Exercise 15
+answer:
+immutable
 
 
 
