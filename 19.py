@@ -413,3 +413,48 @@ answer:
 (n):{x - 2 for x in A if x < 10} = {0,5}
 
 
+
+
+12.12 Exercises
+Exercise 1
+answer:
+if a solution expressed illustrates the concept of look before you leap,
+usually abbreviated as LBYL in the Python community. This programming idiom checks code that may
+misbehave before executing it.
+
+Exercise 2
+answer:
+An alternative to LBYL is EAFP, which stands for easier to ask for forgiveness than permission. The
+ EAFP approach attempts to execute the potentially 
+problematic code within a try statement. If the code
+ raises an exception, the program’s execution does not necessarily terminate; instead,
+the program’s execution jumps imeidately to a different block within the try statement.
+
+Exercise 3
+answer:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
