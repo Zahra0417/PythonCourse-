@@ -57,10 +57,15 @@ def mul_tuple(tuple) :
         product = product * i 
     return product 
 
-
 tuple1 = (11, 12, 4, 3)
 print(tuple1) 
 print("product:",mul_tuple(tuple1))
+
+
+The second method
+answer:
+def mul_tuple(tuple):
+
 
 Exercises 9
 answer:
