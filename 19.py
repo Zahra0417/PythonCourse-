@@ -474,24 +474,53 @@ answer:
 
 
 
+
 12.12 Exercises
-Exercise 1
+
+Exercise 11
+answer:
+lst = [0, 0, 0, 0]
+
+try:
+    with open('data.txt', 'r') as f:
+        count = 0
+        for line in f.readlines():
+            try:
+                lst[count] = int(line)
+                count += 1
+            except ValueError:
+                print('cant be a String : ', line)
+            except IndexError:
+                print('lines numbers > list length')
+
+except FileNotFoundError:
+    print("can not create a file with 'r' ")
+    file = open('data.txt', 'w')
+    file.close()
+
+    with open('data.txt', 'r') as f:
+        count = 0
+        for line in f.readlines():
+            try:
+                lst[count] = int(line)
+                count += 1
+            except ValueError:
+                print('cant be a String : ', line)
+            except IndexError:
+                print('lines numbers > list length')
+
+print(lst)
+
+Exercise 12
 answer:
 
-
-
-
-
-Exercise 2
-answer:
 (a) print('Begin')
-
 x = int(input())
-
 print(x)
 print('End')
-i. User enters 22
-ii. User enters ZZ
+i. User enters 22  => Begin,22,End
+ii. User enters ZZ => Begin,valu error 
+
 (b) print('Begin')
 try:
 x = int(input())
@@ -499,8 +528,9 @@ print(x)
 except ValueError:
 print('Wrong!')
 print('End')
-i. User enters 22
-ii. User enters ZZ
+i. User enters 22 => Begin,22,End
+ii. User enters ZZ => Begin,wrong,End
+
 (c) print('Begin')
 try:
 x = int(input())
@@ -508,8 +538,9 @@ print(x)
 except IndexError:
 print('Wrong!')
 print('End')
-i. User enters 22
-ii. User enters ZZ
+i. User enters 22 => Begin,22,End
+ii. User enters ZZ => Begin,valu error
+
 (d) print('Begin')
 try:
 x = int(input())
@@ -517,13 +548,66 @@ print(x)
 except Exception:
 print('Wrong!')
 print('End')
+i. User enters 22 => Begin,22,End
+ii. User enters ZZ => Begin,wrong,End
+
+(e) print('Begin')
+try:
+x = int(input())
+print(x)
+except ValueError:
+print('Wrong!')
+else:
+print('Wow')
+print('End')
+i. User enters 22 => Begin,22,wow,End
+ii. User enters ZZ => Begin,wrong,End
 
 
-Exercise 3
+(f) print('Begin')
+try:
+x = int(input())
+print(x)
+except ValueError:
+print('Wrong!')
+finally:
+print('Done')
+print('End')
+i. User enters 22 => Begin,22,Done,End
+ii. User enters ZZ => Begin,wrong,Done,End
+
+
+(g) print('Begin')
+try:
+x = int(input())
+print(x)
+except ValueError:
+print('Wrong!')
+else:
+print('Wow')
+finally:
+print('Done')
+print('End')
+i. User enters 22 => Begin,22,wow,Done,End
+ii. User enters ZZ => Begin,wrong,Done,End
+
+Exercise 13
 answer:
+'Exception', superclass of the exception class 'ValueError', has already been caught
+its better : (except ValueError:
+                  print(2)
+              except Exception:
+                  print(1)     )
 
 
+Exercise 14
+answer:
+because OSError is more general than FileNoteFoundError and permissionError its expect block must appear after the except block of both fileNotFoundError and permissionError.
 
+( except FileNotFoundError:
+    print(2)
+except OSError:
+    print(1) )
 
 
 
