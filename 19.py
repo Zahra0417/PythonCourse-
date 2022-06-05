@@ -611,13 +611,37 @@ except OSError:
 
 
 
+13.11 Exercise 
 
+Exercise 9
+answer:
 
+class Circle:    
+    def __init__(self, x, y, r):
+        self.x = x
+        self.y = y
+        self.r = r
+        
+    def area(self):
+    
+        return 3.14* (self.r**2)
+        
+    def circumference(self):
+        
+        return 2 * 3.14 * self.r
+    
+new= Circle(3, 6, 9)
+    
+print("area is :" ,new.area() )
+print( "circumference is :" , newc.circumference() )
 
+Exercise 11
+answer:
+(a) = 40,0,41,1,50,2
+(b) = 0
+(c) = 
 
-
-
-
+"""
 
 
 
