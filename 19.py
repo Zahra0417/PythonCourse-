@@ -484,6 +484,40 @@ answer:
 
 Exercise 2
 answer:
+(a) print('Begin')
+
+x = int(input())
+
+print(x)
+print('End')
+i. User enters 22
+ii. User enters ZZ
+(b) print('Begin')
+try:
+x = int(input())
+print(x)
+except ValueError:
+print('Wrong!')
+print('End')
+i. User enters 22
+ii. User enters ZZ
+(c) print('Begin')
+try:
+x = int(input())
+print(x)
+except IndexError:
+print('Wrong!')
+print('End')
+i. User enters 22
+ii. User enters ZZ
+(d) print('Begin')
+try:
+x = int(input())
+print(x)
+except Exception:
+print('Wrong!')
+print('End')
+
 
 Exercise 3
 answer:
