@@ -64,8 +64,32 @@ print("product:",mul_tuple(tuple1))
 
 The second method
 answer:
-def mul_tuple(tuple):
-
+def mul_tuple(touple):
+	
+	if len(touple)==0:
+		
+		return 1 
+	else:
+		product =1
+	for i in touple :
+		product *= i 
+	    
+	    
+	return product 
+	
+def convert(list):
+	return tuple (list)
+	    
+list = []
+s= int(input("enter a number :"))
+for i in range (0,s):
+	n=float(input( ))
+	list +=[n]
+	    
+touple=convert(list)
+	
+print("the touple is :" , touple)
+print ("Multiplication between Tupel members:",mul_tuple(touple))
 
 Exercises 9
 answer:
@@ -83,6 +107,39 @@ def zero_sum(num):
 num =(4,7,9,10,-1)
 x = zero_sum(num)
 print(x)
+
+
+The second method
+answer:
+def zero_sum(touple):
+
+    if len(touple)==0:
+
+        return True
+    sum =0
+    for i in touple :
+        sum += i 
+    if sum == 0:
+        return True
+    
+    else:
+        
+        return False
+
+
+def convert(list):
+    return tuple (list)
+
+list = []
+n= int(input("enter a number:"))
+for i in range (0,n ):
+    ele =int(input( ))
+    list +=[ele]
+
+touple=convert(list)
+
+print("the tuple is :",touple)
+print (zero_sum(touple))
 
 Exercises 10
 answer:
