@@ -24,36 +24,30 @@ ordered
 
 Exercises 5
 answer :
->>> a = 1, 2, 3, 4, 5, 6, 7, 8 
->>> a 
+a = 1, 2, 3, 4, 5, 6, 7, 8 
+a 
 (1, 2, 3, 4, 5, 6, 7, 8) 
->>> *midlist = a 
->>> midlist 
-(3, 4, 5, 6)
+s=-,-,*s,-,-= a
+s = tuple(s)
+print(tuple(s))
 
 Exercises 6
 answer :
->>> a = 1, 2, 3, 4, 5, 6, 7, 8 
->>> a 
+a = 1, 2, 3, 4, 5, 6, 7, 8 
+a 
 (1, 2, 3, 4, 5, 6, 7, 8) 
->>> s = a[3:7] 
->>> s = tuple(s) 
->>> s 
-(4, 5, 6, 7)
+s = a[3:7] 
+s = tuple(s) 
+print(tuple(s))
 
 Exercises 7
 answer :
->>>a=7, 10, -3, 18, 6, 10
->>>a
+a=7, 10, -3, 18, 6, 10
+a
 (7, 10, -3, 18, 6, 10)
->>> x, *rest = a
->>> *start ,y =a
->>>x
-7
->>>rest(10,-3,18,6,10)
->>>start(7,10,-3,18,6)
->>>y
-10
+s = x,y = t[0],t[5]
+s = tuple(s)
+print(tuple(s))
 
 Exercises 8
 answer :
