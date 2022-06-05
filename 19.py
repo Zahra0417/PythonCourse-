@@ -133,8 +133,8 @@ def convert(list):
 list = []
 n= int(input("enter a number:"))
 for i in range (0,n ):
-    ele =int(input( ))
-    list +=[ele]
+    N =int(input( ))
+    list +=[N]
 
 touple=convert(list)
 
@@ -152,7 +152,10 @@ d = {}
 
 Exercise 12
 answer:
-d['Fred'] = 44
+key [ ]
+d['Fred']=44
+in Dictionary every has an associated value
+d={'Fred':44}
 
 Exercise 13
 answer:
@@ -449,11 +452,11 @@ A=set()
 
 Exercise 22
 answer:
-immutable
+mutable
 
 Exercise 23
 answer:
-(a):A = {20, 19, 2, 10, 7}
+(a):A = {20, 19, 2, 10, 7
 (b):20 in A = True 
 (c):20 not in A = False 
 (d):A&B = {10,7}
@@ -474,17 +477,13 @@ answer:
 12.12 Exercises
 Exercise 1
 answer:
-if a solution expressed illustrates the concept of look before you leap,
-usually abbreviated as LBYL in the Python community. This programming idiom checks code that may
-misbehave before executing it.
+
+
+
+
 
 Exercise 2
 answer:
-An alternative to LBYL is EAFP, which stands for easier to ask for forgiveness than permission. The
- EAFP approach attempts to execute the potentially 
-problematic code within a try statement. If the code
- raises an exception, the program’s execution does not necessarily terminate; instead,
-the program’s execution jumps imeidately to a different block within the try statement.
 
 Exercise 3
 answer:
